@@ -8,15 +8,15 @@ function App() {
       name:'Half Stack application development',
       parts:[
         {
-          title: 'Fundamentals of React',
+          name: 'Fundamentals of React',
           exercises: 10
         },
         {
-          title: 'Using props to pass data',
+          name: 'Using props to pass data',
           exercises: 7
         },
         {
-          title: 'State of a component',
+          name: 'State of a component',
           exercises: 14
         }
       ]   
@@ -24,13 +24,6 @@ function App() {
   ]
 
   console.log(courses[0].parts);
-  // const course = 'Half Stack application development'
-  // const part1 = 'Fundamentals of React'
-  // const exercises1 = 10
-  // const part2 = 'Using props to pass data'
-  // const exercises2 = 7
-  // const part3 = 'State of a component'
-  // const exercises3 = 14
 
   return (
     <div>
